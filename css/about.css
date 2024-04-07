@@ -1,0 +1,68 @@
+.main_about{
+    background-color: #2C2C2C;
+   
+
+}
+.container_about_page{
+    padding: 50px 0;
+}
+.about_page__title{
+   color:#E4E4E4;
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 50px;
+   -webkit-text-stroke: 1px red ;
+   text-shadow: 2px 2px 2px black;
+
+}
+.about_page__text{
+    color:#E4E4E4 ;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.about_page__image{
+    display: flex;
+    justify-content: right;
+}
+.footer{
+    background: rgb(44, 44, 44);
+}
+.cotainer_footer{
+    padding: 50px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+.footer__title{
+    color: rgb(228, 228, 228);
+font-family: Crimson Text;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+}
+.footer__text{
+    color: rgb(255, 255, 255);
+font-family: Crimson Text;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.25px;
+letter-spacing: 0px;
+text-align: left;
+}
+.footer__list{
+    display: flex;
+    list-style: none;
+}
+.footer__item:not(:last-child){
+    margin-right: 40px;
+}
+

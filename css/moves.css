@@ -1,0 +1,29 @@
+.main_video{
+    background-color: #3E3E3E;
+}
+.container_video{
+padding: 50px 0;
+}
+.video__title{
+color: white;
+text-align: center;
+ font-size: 40px;
+margin-bottom: 50px;
+-webkit-text-stroke: 1px blue ;
+text-shadow: 2px 2px 2px black;
+}
+.video__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.video__item{
+    width: 48%;
+    
+
+}
+.video__video{
+    width: 100%;
+    height: 315px;
+}
